@@ -1,3 +1,5 @@
+VERSION=$(shell git describe --tags --always)
+
 .PHONY: docker
 docker: # Compile and build the docker | 编译并构建 docker 镜像
 	pnpm install
@@ -6,7 +8,7 @@ docker: # Compile and build the docker | 编译并构建 docker 镜像
 
 .PHONY: docker-not-build
 docker-not-build: # Build the docker without compiling | 不编译直接构建镜像
-	docker build -f Dockerfile -t ${DOCKER_USERNAME}/backend-ui:${VERSION} .
+	docker build -f Dockerfile -t ${DOCKER_USERNAME}/backend-ui-demo:${VERSION} .
 
 .PHONY: publish-docker
 publish-docker: # Publish the docker | 发布镜像
