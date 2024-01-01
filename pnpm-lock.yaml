@@ -44,8 +44,8 @@ importers:
         specifier: ^3.2.20
         version: 3.2.20(vue@3.3.2)
       axios:
-        specifier: ^1.4.0
-        version: 1.4.0
+        specifier: ^1.6.0
+        version: 1.6.0
       codemirror:
         specifier: ^6.0.1
         version: 6.0.1(@lezer/common@1.0.2)
@@ -3669,7 +3669,7 @@ packages:
   /@vueuse/shared@9.13.0(vue@3.2.47):
     resolution: {integrity: sha512-UrnhU+Cnufu4S6JLCPZnkWh0WwZGUp72ktOF2DFptMlOs3TOdVv8xJN53zhHGARmVOsz5KqOls09+J1NR6sBKw==}
     dependencies:
-      vue-demi: 0.14.5(vue@3.2.47)
+      vue-demi: 0.14.6(vue@3.2.47)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -4092,8 +4092,8 @@ packages:
       - debug
     dev: true
 
-  /axios@1.4.0:
-    resolution: {integrity: sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==}
+  /axios@1.6.0:
+    resolution: {integrity: sha512-EZ1DYihju9pwVB+jg67ogm+Tmqc6JmhamRN6I4Zt8DfZu5lbcQGw3ozH9lFejSJgs/ibaef3A9PMXPLeefFGJg==}
     dependencies:
       follow-redirects: 1.15.2(debug@4.3.4)
       form-data: 4.0.0
@@ -12114,7 +12114,7 @@ packages:
     dependencies:
       codemirror: 6.0.1(@lezer/common@1.0.2)
       vue: 3.3.2
-      vue-demi: 0.14.5(vue@3.3.2)
+      vue-demi: 0.14.6(vue@3.3.2)
     transitivePeerDependencies:
       - '@lezer/common'
       - '@vue/composition-api'
@@ -12150,8 +12150,8 @@ packages:
       vue: 3.3.2
     dev: false
 
-  /vue-demi@0.14.5(vue@3.2.47):
-    resolution: {integrity: sha512-o9NUVpl/YlsGJ7t+xuqJKx8EBGf1quRhCiT6D/J0pfwmk9zUwYkC7yrF4SZCe6fETvSM3UNL2edcbYrSyc4QHA==}
+  /vue-demi@0.14.6(vue@3.2.47):
+    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
@@ -12165,8 +12165,8 @@ packages:
       vue: 3.2.47
     dev: false
 
-  /vue-demi@0.14.5(vue@3.3.2):
-    resolution: {integrity: sha512-o9NUVpl/YlsGJ7t+xuqJKx8EBGf1quRhCiT6D/J0pfwmk9zUwYkC7yrF4SZCe6fETvSM3UNL2edcbYrSyc4QHA==}
+  /vue-demi@0.14.6(vue@3.3.2):
+    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true

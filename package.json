@@ -79,7 +79,7 @@
     "@vueuse/shared": "^10.1.2",
     "@zxcvbn-ts/core": "^2.2.1",
     "ant-design-vue": "^3.2.20",
-    "axios": "^1.4.0",
+    "axios": "^1.6.0",
     "codemirror": "^6.0.1",
     "cropperjs": "^1.5.13",
     "crypto-js": "^4.1.1",
